@@ -4,6 +4,9 @@ odhd2014
 Unser Beitrag für den [Open Data Hack Day](http://opendata-hackday.de/) 2014 in Offenburg (#hackdayOG).
 
 
+![project screenshot](https://raw.githubusercontent.com/matths/odhd2014/master/screenshot.jpg)
+
+
 Thema
 -----
 
