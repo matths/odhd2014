@@ -2,6 +2,19 @@ body {
 	font-size: 11px;
 }
 
+h3 {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	font-size: 11px;
+}
+h1 {
+	margin-top: 0px;
+}
+
+p {
+	width: 500px;
+}
+
 button {
 	border: 1px solid #333;
 	color: #ffffff;
@@ -14,6 +27,7 @@ button {
 #btnIn { background-color: #339933; }
 #btnOut { background-color: #993333; }
 #btnDiff { background-color: #ccaa33; }
+#btnFb { background-color: #333399; }
 
 #tooltip {
 	position: absolute;
@@ -23,4 +37,19 @@ button {
 	opacity: 0.8;
 	background: white;
 	z-index: 9999;
+}
+
+#stage {
+	width: 900px;
+}
+
+#info {
+	width: 300px;
+	float: right;
+	background: rgba(0,0,0,0.1);
+	padding: 10px 13px;
+}
+
+button.active {
+	background: #999;
 }
