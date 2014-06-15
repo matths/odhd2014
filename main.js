@@ -12,8 +12,14 @@ d3.json("maps/landkreise_bawue.json", function(error, json) {
 
    console.log(json);
 
-    vis.append("path")
-		.datum(json)
-    .attr("d", path);
+    vis.selectAll("path")
+    	.data(json.features)
+    	.enter()
+    	.append("path")
+    		.attr("d", path)
+			.attr("stroke", "white")
+			.attr("stroke-width", 1)
+			.attr("fill", "#cccccc");
+
 
 });
