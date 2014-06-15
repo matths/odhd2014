@@ -3,12 +3,37 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Open Data Hack Day</title>
-		<link rel='stylesheet' href='styles.css'>
+		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
+		<link rel="stylesheet" href="styles.css">
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/d3/3.4.8/d3.min.js"></script>
 	</head>
 	<body>
-		<h1>Open Data Hack Day 2014</h1>
-		<div id="stage"></div>
+		<div id="content">
+			<h1>Das sind die beliebtesten Kreise in Baden-Würtemberg</h1>
+			<h2></h2>
+			<h3>Open Data Hack Day 2014</h3>
+
+			Alter:
+			<button id="btn18-25">18-25</button>
+			<button id="btn25-30">25-30</button>
+
+			<br>
+			<br>
+
+			<button id="btnIn">Zuzüge</button>
+			<button id="btnOut">Wegzüge</button>
+			<button id="btnDiff">Differenz</button>
+		</div>
+
+		<div id="stage">
+			<div id="tooltip"></div>
+		</div>
+
+		Quellen:
+		<ul>
+			<li><a href="https://www.regionalstatistik.de/link/tabelleErgebnis/182-44-4-B?type=service">Zu- und Fortzüge nach Altersgruppen (über die Kreisgrenzen)
+- Statistische Ämter des Bundes und der Länder</a></li>
+
 		<script src="main.js"></script>
 	</body>
 </html>

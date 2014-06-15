@@ -1,0 +1,26 @@
+body {
+	font-size: 11px;
+}
+
+button {
+	border: 1px solid #333;
+	color: #ffffff;
+}
+
+#content {
+	padding: 0 20px;
+}
+
+#btnIn { background-color: #339933; }
+#btnOut { background-color: #993333; }
+#btnDiff { background-color: #ccaa33; }
+
+#tooltip {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 3px 5px;
+	opacity: 0.8;
+	background: white;
+	z-index: 9999;
+}
